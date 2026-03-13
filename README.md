@@ -32,18 +32,19 @@ Bot automatizado para WhatsApp que permite aos condôminos consultarem suas segu
 
 ### Instalação (primeira vez):
 
-1. Abra o PowerShell na pasta do projeto:
-```powershell
-cd C:\Users\rosem\bot-condominio
+1. Clone o repositório e acesse a pasta do projeto:
+```bash
+git clone https://github.com/rosembergcmfilho/bot-condominio.git
+cd bot-condominio
 ```
 
-2. Instale as dependências (se ainda não instalou):
-```powershell
+2. Instale as dependências:
+```bash
 npm install
 ```
 
 ### Rodar o bot:
-```powershell
+```bash
 node whatsapp-bot.js
 ```
 
@@ -54,7 +55,7 @@ node whatsapp-bot.js
 ### Rodar a API (opcional - para testes):
 
 Em **outro terminal**:
-```powershell
+```bash
 node server.js
 ```
 
@@ -183,7 +184,7 @@ bot-condominio/
 Em caso de dúvidas ou problemas:
 - Verifique este README
 - Digite `AJUDA` no bot
-- Entre em contato com o suporte da Módulo Administradora
+- Abra uma issue no repositório
 
 ---
 
